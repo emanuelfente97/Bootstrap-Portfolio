@@ -1,5 +1,7 @@
 *{
     font-family: sans-serif;
+    box-sizing: border-box;
+    /* background: black; */
 }
 .header{
    /* padding: 30px 35px; */
@@ -14,11 +16,12 @@
 .landingpage{
     width: 100%; 
     height: 100vh;
-    background-image: url(dark.jpeg);
+    background-image: linear-gradient(to bottom,rgba(151, 149, 149, 0.7),rgba(3, 3, 3, 0.7)), url(light-bulb-5831252_1920.jpg);
     background-size: cover;
     padding-top: 20%;
     text-align: center;
     color: rgb(red, green, blue);
+    background-attachment: fixed;
 
 }
 .h1 .h2 {
@@ -72,5 +75,30 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-color: black;
+    background-color: dimgray;
+}
+
+.middle-text{
+    display:inline-flex;
+    padding: 100px;
+    
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.Work-Edu{
+    padding-bottom: 200px;
+    width: 100%;
+    height: 140vh;
+    background-color: grey;
+    background-size: cover;
+}
+
+.timeline{
+    /* align-items: center; */
+    padding: 100px;
+}
+.testimonial{
+    width: 100%;
+    height: 50vh;
+    background-image:url(yjdXBi.gif) ;
 }

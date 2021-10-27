@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
-  <body>
+  <body class="overlay" data-bs-spy="scroll" data-bs-target="#navbarNav">
+    
     <header class="header" style="background-color: black;">
       <!-- NAVIGATION BAR -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
@@ -33,19 +34,19 @@
           <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;" >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#" style="justify-content: center;">Home</a>
+                <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Testimonials</a>
+                <a class="nav-link" href="#testimonials">Testimonials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -60,26 +61,115 @@
 
     <!-- LANDING PAGE -->
 
+   
+    
+
   
     <section class="landingpage">
       <div>
-        <h1 style ="font-size: 60px; color: #CF1020;"><strong>Emanuel Fente</strong></h1>
+        <h1 style ="font-size: 100px; color: whitesmoke;"><strong>Emanuel Fente</strong></h1>
 
 
-        <h2 class= "text-dark" style="font-size:20px;"><strong>aspiring front end developer</strong></h2>
+        <h2 class= "text-ligt" style="font-size:40px; color: darkred;"><strong>aspiring front end developer</strong></h2>
 
-        <button type="submit" style="background-color: #CF1020; border-radius: 70%;"><a href="#about">Next Page</a></button>
+        <button type="submit" class="btn btn-lg" style="background-color: darkslategrey;"><a href="#about"><span class= "text-dark">Next Page</a></button></span>
       </div> 
     </section>
-
-    <hr>
 
     <!-- ABOUT PAGE -->
     <section class="about" id="about">
 
-      <h1 style= "font-size: 60px; color:#CF1020 ; text-align: center; padding-top: 50px;"><strong>About</strong></h1>
-      <img src="index3.jpeg" class="img-thumbnail" alt="..." style="height: 400px; width: 400px;">
+      <h1 style= "font-size: 60px; color: white ; text-align: center; padding-top: 50px;"><strong>About</strong></h1>
+      <h2 class="text-dark" style="font-size: 20px; text-align: center;"><strong> Who I am</strong></h2>
+<!-- <div class="container" style="padding-bottom: 600px;"> -->
+        <div class="middle-text">
+          <img src= "index3.jpeg" alt="image" style="height: 600px; width: 400px; padding-bottom: 200px;">
+          <p style="margin-top: 50px; color: white; font-size: 20px; line-height: 40px; padding-left: 20px; padding-bottom: 50px;"> Hello My name is Emananuel Fente,I am an aspiring front end developer and currently enrolled for a web development program at Life
+          Choices academy. I am passionate about coding and dedicated to my work.
+          
+          <br>
+          <br>
+          Date of birth : 06-March-1997<br>
+          Address : 34 marlin lane Nooitgedtach, Cape Town<br>
+            </div>   
+         </p>
 
+    </section>
+    
+    
+    <!-- Work and Education -->
+
+    <section class="Work-Edu"> 
+      <h6 style="font-size: 40px; text-align: center; color: whitesmoke; padding-top: 50px;" ><strong> Education and Work Background</strong></h6>
+      <div class="timeline">
+      <div class="row gx-5">
+      <div class="col-md-6">
+        <h2 class="text-6 text-dark fw-600 mb-4">Education Background</h2>
+        <div class="rounded p-4 mb-4"style="background-color:darkgrey;">
+          <p class="badge bg-danger text-2 text-white fw-400">Sep/2021-Cur/2021</p>
+          <h3 class="text-5 text-white">Web Develepment</h3>
+          <p class ="text-danger"><b>Life choices Academy</b></p>
+          <p class="text-5 text-white mb-0"><strog>Learner</strog></p>
+        </div>
+      </div>
+
+        <div class="col-md-6">
+         
+          <h2 class="text-6 text-dark fw-600 mb-4">Work Experience</h2>
+          <div class="rounded p-4 mb-4" style="background-color:darkgrey;"> 
+            <p class="badge bg-danger text-2 text-white fw-400"> Jun/2021-Sep/2021</p>
+            <h3 class="text-5 text-white">Customer Sales and Services Agent</h3>
+            <p class ="text-danger">Mind Pearl</p>
+            <p class="text-white-50 mb-0"> Call center</p>
+          </div>
+        </div>
+
+          <div class="col-md-6">
+            <!-- <h2 class="text-6 text-dark fw-600 mb-4">Work Experience</h2> -->
+            <div class="rounded p-4 mb-4" style="background-color:darkgrey;">
+              <p class="badge bg-danger text-2 text-white fw-400">Jan/2017-Dec/2021</p>
+              <h3 class="text-5 text-white"><strong>Maths And Stats Science</strong></h3>
+              <p class ="text-primary">University Of the Western Cape</p>
+              <p class="text-5 text-white mb-0"><strog>Undergraduate</strog></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <!-- <h2 class="text-6 text-dark fw-600 mb-4">Work Experience</h2> -->
+            <div class="rounded p-4 mb-4"style="background-color:darkgrey;">
+              <p class="badge bg-danger text-2 text-white fw-400"> Dec/2020-Mar/2021</p>
+              <h3 class="text-5 text-white">Teacher Assistant</h3>
+              <p class ="text-danger">Daliwonga S.S.S</p>
+              <p class="text-5 text-white mb-0"><strong>>Assistant Teacher</strong</p>
+            </div>
+
+   
+          </div>
+          <div class="col-md-6">
+         
+            <!-- <h2 class="text-6 text-dark fw-600 mb-4">Work Experience</h2> -->
+            <div class="rounded p-4 mb-4" style="background-color:darkgrey;"> 
+              <p class="badge bg-danger text-2 text-white fw-400"> Jun/2021-Sep/2021</p>
+              <h3 class="text-5 text-white">Customer Sales and Services Agent</h3>
+              <p class ="text-danger">Mind Pearl</p>
+              <p class="text-white-50 mb-0"> Call center</p>
+            </div>
+    </div>
+    <div class="col-md-6">
+         
+      <!-- <h2 class="text-6 text-dark fw-600 mb-4">Work Experience</h2> -->
+      <div class="rounded p-4 mb-4" style="background-color:darkgrey;"> 
+        <p class="badge bg-danger text-2 text-white fw-400"> Jun/2021-Sep/2021</p>
+        <h3 class="text-5 text-white">Customer Sales and Services Agent</h3>
+        <p class ="text-danger">Mind Pearl</p>
+        <p class="text-white-50 mb-0"> Call center</p>
+      </div>
+    </div>
+      </div>
+    </section>
+
+    <!-- testimonial -->
+    <section class="testimonial" id="testimonials">
+      <h1 style="color:white"> </h1>
 
     </section>
     
