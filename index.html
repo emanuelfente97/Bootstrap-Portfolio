@@ -1,182 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Portfolio</title>
-  </head>
-  <body class="overlay" data-bs-spy="scroll" data-bs-target="#navbarNav">
-    
-    <header class="header" style="background-color: black;">
-      <!-- NAVIGATION BAR -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><span style="color:#E31837 ;" ><strong>Emanuel Fente</strong></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-        </button>
-          <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;" >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#testimonials">Testimonials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Social Media Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <div id="header" class="headerImage">
+      <div class="container home-details">
+        <div class="row">
+          <div class="col">
+            <h1>HELLO!</h1>
           </div>
         </div>
+        <div class="row">
+          <div class="col">
+            <h1>My Name is</h1>
+          </div>
         </div>
-      </nav>
-    </header>
+        <div class="row">
+          <div class="col">
+            <h1>Emanuel Fente</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h1>An Aspiring Front-End Developer</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-primary  fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="navName">Emanuel Fente</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#header">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills and Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselExampleCaptions">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
   </div>
+  <!-- END OF NAVIGATION BAR -->
 
 
-    <!-- END OF NAVIGATION BAR -->
-
-    <!-- LANDING PAGE -->
-
-   
-    
-
-  
-    <section class="landingpage">
-      <div>
-        <h1 style ="font-size: 100px; color: whitesmoke;"><strong>Emanuel Fente</strong></h1>
-
-
-        <h2 class= "text-ligt" style="font-size:40px; color: darkred;"><strong>aspiring front end developer</strong></h2>
-
-        <button type="submit" class="btn btn-lg" style="background-color: darkslategrey;"><a href="#about"><span class= "text-dark">Next Page</a></button></span>
-      </div> 
-    </section>
-
-    <!-- ABOUT PAGE -->
-    <section class="about" id="about">
-
-      <h1 style= "font-size: 60px; color: white ; text-align: center; padding-top: 50px;"><strong>About</strong></h1>
-      <h2 class="text-dark" style="font-size: 20px; text-align: center;"><strong> Who I am</strong></h2>
-<!-- <div class="container" style="padding-bottom: 600px;"> -->
-        <div class="middle-text">
-          <img src= "index3.jpeg" alt="image" style="height: 600px; width: 400px; padding-bottom: 200px;">
-          <p style="margin-top: 50px; color: white; font-size: 20px; line-height: 40px; padding-left: 20px; padding-bottom: 50px;"> Hello My name is Emananuel Fente,I am an aspiring front end developer and currently enrolled for a web development program at Life
+  <!-- ABOUT PAGE -->
+  <section id="about">
+    <div class="aboutImage"></div>
+    <div class="aboutContent">
+        <p>
+          Hello My name is Emananuel Fente,I am an aspiring front end developer and currently enrolled for a web
+          development program at Life
           Choices academy. I am passionate about coding and dedicated to my work.
-          
           <br>
+          Hello My name is Emananuel Fente,I am an aspiring front end developer and currently enrolled for a web
+          development program at Life
+          Choices academy. I am passionate about coding and dedicated to my work.
+          <br>
+          Hello My name is Emananuel Fente,I am an aspiring front end developer and currently enrolled for a web
+          development program at Life
           <br>
           Date of birth : 06-March-1997<br>
           Address : 34 marlin lane Nooitgedtach, Cape Town<br>
-            </div>   
-         </p>
+      </p> 
+    </div>
+  </section>
 
-    </section>
-    
-    
-    <!-- Work and Education -->
+  <!-- Work and Education -->
+  <section id="workEdu">
+    <div>
+      <h2><center>Education and Work Background</center></h2>
+      <br>
+        <div class="timeline">
+          <div class="container left timeline-cont">
+            <div class="content">
+              <h2>2021</h2>
+              <p></p>
+                <h3>Web Development</h3>
+                <p ><b>Life choices Academy</b></p>
+                <p><strong>Learner</strong></p>
+            </div>
+          </div>
+          <div class="container right timeline-cont">
+            <div class="content">
+              <h2>2021</h2>
+              <h3>Customer Sales and Services Agent</h3>
+              <p><b>Mind Pearl</b></p>
+              <p><strong>Call center</strong></p>
+            </div>
+          </div>
+          <div class="container left timeline-cont">
+            <div class="content">
+              <h2>2020</h2>
+              <h3>Bachelor of Science in Mathematics And Statistical Science</h3>
+              <p><b>University Of the Western Cape</b></p>
+              <p><strong>Undergraduate</strong></p>
+            </div>
+          </div>
+          <div class="container right timeline-cont">
+            <div class="content">
+              <h2>2020</h2>
+              <h3>Teacher Assistant</h3>
+              <p><b>Daliwonga S.S.S</b></p>
+              <p><strong>Undergraduate</strong></p>
+            </div>
+          </div>
+          <div class="container left timeline-cont">
+            <div class="content">
+              <h2>2019</h2>
+              <h3>Student Assistant</h3>
+              <p><b>Univrsity Of The Western cape</b></p>
+              <p><strong>Administration</strong></p>  
+              </div>
+          </div>
+        </div>
+    </div>
+  </section>
+<!-- Testimonials -->
+  <section class="home-testimonial">
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center testimonial-pos">
+            
+            <div class="col-md-12 d-flex justify-content-center">
+                <h2 style="color: #A3AAB0;">Testimonials</h2>
+            </div>
+        </div>
+        <section class="home-testimonial-bottom">
+            <div class="container testimonial-inner">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item ">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">“Emanuel Fente is one of the  classmates that is always eager to assist other to e”</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="/images/pexels-photo-9705637.jpeg" alt=""></div>
+                                <div class="link-name d-flex justify-content-center">Lilitha Mantini</div>
+                                <div class="link-position d-flex justify-content-center">Student</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item ">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">“”</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                                <div class="link-name d-flex justify-content-center">Nande Bija</div>
+                                <div class="link-position d-flex justify-content-center">Student</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 style-3">
+                        <div class="tour-item ">
+                            <div class="tour-desc bg-white">
+                                <div class="tour-text color-grey-3 text-center">“”</div>
+                                <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                                <div class="link-name d-flex justify-content-center">Jason</div>
+                                <div class="link-position d-flex justify-content-center">Lecturer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 style-3 mt-2">
+                      <div class="tour-item ">
+                          <div class="tour-desc bg-white">
+                              <div class="tour-text color-grey-3 text-center">“”</div>
+                              <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                              <div class="link-name d-flex justify-content-center">Goodwin</div>
+                              <div class="link-position d-flex justify-content-center">Lecturer</div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 style-3 mt-2">
+                    <div class="tour-item ">
+                        <div class="tour-desc bg-white">
+                            <div class="tour-text color-grey-3 text-center">“”</div>
+                            <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                            <div class="link-name d-flex justify-content-center">Alex</div>
+                            <div class="link-position d-flex justify-content-center">Student</div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-4 style-3 mt-2">
+                      <div class="tour-item ">
+                          <div class="tour-desc bg-white">
+                              <div class="tour-text color-grey-3 text-center">“”</div>
+                              <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                              <div class="link-name d-flex justify-content-center">Simthandile Thyali</div>
+                              <div class="link-position d-flex justify-content-center">Former Collegue</div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+        </section>
+</section>
 
-    <section class="Work-Edu"> 
-      <h6 style="font-size: 40px; text-align: center; color: whitesmoke; padding-top: 50px;" ><strong> Education and Work Background</strong></h6>
-      <div class="timeline">
-      <div class="row gx-5">
-      <div class="col-md-6">
-        <h2 class="text-6 text-dark fw-600 mb-4">Education Background</h2>
-        <div class="rounded p-4 mb-4"style="background-color:darkgrey;">
-          <p class="badge bg-danger text-2 text-white fw-400">Sep/2021-Cur/2021</p>
-          <h3 class="text-5 text-white">Web Develepment</h3>
-          <p class ="text-danger"><b>Life choices Academy</b></p>
-          <p class="text-5 text-white mb-0"><strog>Learner</strog></p>
+  <!-- Skills  and Projects-->
+<section class="skills"  id="skills">
+  <div>
+    <h2><center>Skills and Projects</center></h2>
+    <div class="m-4">
+      <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated html" style="width: 50%"> HTML</div>
+      </div>
+      <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated css" style="width: 30%"> CSS</div>
+      </div>
+      <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated javascript" style="width: 0%"> JavaScript</div>
+      </div>
+  </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
         </div>
       </div>
-
-        <div class="col-md-6">
-         
-          <h2 class="text-6 text-dark fw-600 mb-4">Work Experience</h2>
-          <div class="rounded p-4 mb-4" style="background-color:darkgrey;"> 
-            <p class="badge bg-danger text-2 text-white fw-400"> Jun/2021-Sep/2021</p>
-            <h3 class="text-5 text-white">Customer Sales and Services Agent</h3>
-            <p class ="text-danger">Mind Pearl</p>
-            <p class="text-white-50 mb-0"> Call center</p>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
           </div>
         </div>
-
-          <div class="col-md-6">
-            <!-- <h2 class="text-6 text-dark fw-600 mb-4">Work Experience</h2> -->
-            <div class="rounded p-4 mb-4" style="background-color:darkgrey;">
-              <p class="badge bg-danger text-2 text-white fw-400">Jan/2017-Dec/2021</p>
-              <h3 class="text-5 text-white"><strong>Maths And Stats Science</strong></h3>
-              <p class ="text-primary">University Of the Western Cape</p>
-              <p class="text-5 text-white mb-0"><strog>Undergraduate</strog></p>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
           </div>
-          <div class="col-md-6">
-            <!-- <h2 class="text-6 text-dark fw-600 mb-4">Work Experience</h2> -->
-            <div class="rounded p-4 mb-4"style="background-color:darkgrey;">
-              <p class="badge bg-danger text-2 text-white fw-400"> Dec/2020-Mar/2021</p>
-              <h3 class="text-5 text-white">Teacher Assistant</h3>
-              <p class ="text-danger">Daliwonga S.S.S</p>
-              <p class="text-5 text-white mb-0"><strong>>Assistant Teacher</strong</p>
-            </div>
-
-   
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
           </div>
-          <div class="col-md-6">
-         
-            <!-- <h2 class="text-6 text-dark fw-600 mb-4">Work Experience</h2> -->
-            <div class="rounded p-4 mb-4" style="background-color:darkgrey;"> 
-              <p class="badge bg-danger text-2 text-white fw-400"> Jun/2021-Sep/2021</p>
-              <h3 class="text-5 text-white">Customer Sales and Services Agent</h3>
-              <p class ="text-danger">Mind Pearl</p>
-              <p class="text-white-50 mb-0"> Call center</p>
-            </div>
-    </div>
-    <div class="col-md-6">
-         
-      <!-- <h2 class="text-6 text-dark fw-600 mb-4">Work Experience</h2> -->
-      <div class="rounded p-4 mb-4" style="background-color:darkgrey;"> 
-        <p class="badge bg-danger text-2 text-white fw-400"> Jun/2021-Sep/2021</p>
-        <h3 class="text-5 text-white">Customer Sales and Services Agent</h3>
-        <p class ="text-danger">Mind Pearl</p>
-        <p class="text-white-50 mb-0"> Call center</p>
+        </div>
       </div>
     </div>
-      </div>
-    </section>
+  </div>
+</section>
+  
+  <!-- testimonial -->
+  <!-- <section class="testimonial" id="testimonials">
+    <h1 style="color:white"> </h1>
 
-    <!-- testimonial -->
-    <section class="testimonial" id="testimonials">
-      <h1 style="color:white"> </h1>
+  </section> -->
 
-    </section>
+ 
+  <footer id="contact">
+    <div >
+      <form> 
+        <h1>Let me hear from you</h1><br>
+        <input type="text" id="Fname" placeholder="Enter Your First Name" style="background-color: rgb(11, 12, 22); width:300px ;"><br><br>
+          <input type="email" id="email" placeholder="Enter Your Email address" style="background-color:rgb(11, 12, 22); width: 300px;"><br><br>
+          <textarea name= "message" id="message" placeholder="Please Leave a message" style="background-color: rgb(11, 12, 22); width: 300px;"></textarea><br>
+          <button type="submit" style="background-color: rgb(11, 12, 22); color:whitesmoke;">send</button>
+          <button type="reset" style="background-color: rgb(11, 12, 22); color: whitesmoke;">reset</button>
+        </form>
+  </div>
     
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div>
+    
+      <h1 style="text-align: center;">Contact Me</h1><br> 
+      <p style="padding-left: 20px;"><img src="https://img.icons8.com/material-outlined/24/000000/phone.png"/> 0731576799</p>
+      <p style="padding-left: 20px;"><img src="https://img.icons8.com/material-outlined/24/000000/email-open.png"/> emanuelfente97@gmail.com</p>
+      <h1 style="text-align: center;">Follow Me</h1><br>
+      <div class="media"></div>
+      <p style="padding-left: 20px;"><img src="https://img.icons8.com/office/24/000000/facebook-new.png"/></p>
+      <p style="padding-left: 20px;"><img src="https://img.icons8.com/color/24/000000/twitter--v2.png"/></p>
+      <p style="padding-left: 20px;"><img src="https://img.icons8.com/color/24/000000/instagram-new--v2.png"/></p>
+    </div>
+    </div>
+    <div>
+      <h2>Address</h2>
+      <p> 34 Marlin</p>
+      <p>Nooitgedtach,</p>
+      <p>Cape Town,</p>
+      <p>7490</p>
+      
+     
+    </div>
+    </div>
+ 
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
